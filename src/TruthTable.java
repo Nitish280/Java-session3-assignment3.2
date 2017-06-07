@@ -14,7 +14,7 @@ public class TruthTable {
 	    
 	    int a=num1,b=num2;
 	    System.out.println(a&b); 
-	    System.out.println(a==0 && b==0);
+	    System.out.println(a==1 && b==1);
 	 
 	    in.close();
 	    }
