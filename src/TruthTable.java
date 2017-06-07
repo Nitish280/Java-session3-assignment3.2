@@ -10,17 +10,13 @@ public class TruthTable {
 	    byte num1 = in.nextByte();
 	    		
 	    System.out.println("Input first number: ");
-	    byte num2 = in.nextByte();
+	    byte  num2= in.nextByte();
 	    
-	    byte x=num1,y=num2;
-	    int u;
-		byte v;
-	    u=x&y;
-//	    v=x&&y;
-	   
-	    System.out.println(u);
-	    
-	    
+	    int a=num1,b=num2;
+	    System.out.println(a&b); 
+	    System.out.println(a==0 && b==0);
+	 
+	    in.close();
 	    }
 
 }
